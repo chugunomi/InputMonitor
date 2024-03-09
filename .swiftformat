@@ -1,0 +1,41 @@
+--swiftversion 5.8
+
+## Configure rules:
+--closurevoid preserve
+--elseposition same-line
+--enumnamespaces structs-only
+--extensionacl on-declarations
+--guardelse same-line
+--importgrouping testable-first
+--linebreaks lf
+--semicolons inline
+--trimwhitespace always
+
+### Disable unwanted rules:
+--disable andoperator
+--disable blanklinesatstartofscope
+--disable blanklinesbetweenscopes
+--disable consecutiveblanklines
+--disable genericextensions
+--disable hoistpatternlet
+--disable indent
+--disable numberformatting
+--disable opaquegenericparameters
+--disable redundantfileprivate
+--disable redundantrawvalues
+--disable redundanttype
+--disable strongoutlets
+--disable unusedarguments
+--disable void
+--disable wraparguments
+--disable wrapattributes
+--disable redundantInternal
+--disable redundantBackticks
+
+### Disable buggy rules:
+--disable hoisttry
+--disable redundantclosure
+--disable redundantself
+--disable spacearoundparens
+--disable todos
+--disable trailingclosures
